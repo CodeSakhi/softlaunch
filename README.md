@@ -1,4 +1,5 @@
-# Notiq
+# Softlaunch
+_Our girls commit to their dreams_
 
 ### How to add your sticky note
 
