@@ -1,0 +1,72 @@
+[
+  {
+    "id": "n1",
+    "text": "Believe in yourself!",
+    "name": "Aisha",
+    "color": "#FFFB7D",
+    "updatedAt": 1690000000000
+  },
+  {
+    "id": "n2",
+    "text": "Keep learning and growing 🌱",
+    "name": "Diya",
+    "color": "#FFD6A5",
+    "updatedAt": 1690000500000
+  },
+  {
+    "id": "n3",
+    "text": "Open source is love 💻",
+    "name": "Meera",
+    "color": "#A0E7E5",
+    "updatedAt": 1690001000000
+  },
+  {
+    "id": "n4",
+    "text": "Dream big, start small!",
+    "name": "Riya",
+    "color": "#FFAEBC",
+    "updatedAt": 1690001500000
+  },
+  {
+    "id": "n5",
+    "text": "You are capable of amazing things ✨",
+    "name": "Sana",
+    "color": "#B4F8C8",
+    "updatedAt": 1690002000000
+  },
+  {
+    "id": "n6",
+    "text": "Be fearless in pursuit of your goals 💪",
+    "name": "Nisha",
+    "color": "#FBE7C6",
+    "updatedAt": 1690002500000
+  },
+  {
+    "id": "n7",
+    "text": "Stay curious and explore 🌟",
+    "name": "Tara",
+    "color": "#CDB4DB",
+    "updatedAt": 1690003000000
+  },
+  {
+    "id": "n8",
+    "text": "Small steps every day = big results",
+    "name": "Lina",
+    "color": "#FFC9DE",
+    "updatedAt": 1690003500000
+  },
+  {
+    "id": "n9",
+    "text": "Help others, learn always 🤝",
+    "name": "Anya",
+    "color": "#A0C4FF",
+    "updatedAt": 1690004000000
+  },
+  {
+    "id": "n10",
+    "text": "Your dreams are valid 💖",
+    "name": "Zara",
+    "color": "#FFFFD1",
+    "updatedAt": 1690004500000
+  }
+]

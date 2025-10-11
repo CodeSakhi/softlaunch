@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+:root{
+  --bg:#F7F7F9;
+  --card-shadow:0 6px 18px rgba(17,24,39,0.08);
+}
+*{box-sizing:border-box}
+body,html{height:100%;margin:0;font-family:'Gaegu', Inter, system-ui, sans-serif;}
+
+.topbar{
+  height: 64px; /* Taller bar for the heading */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 24px;
+  background: white;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 40;
+}
+
+.topbar .brand {
+  text-align: center;
+  /* This centers the brand by taking up the available space */
+  flex-grow: 1;
+}
+
+.topbar .brand h1 {
+  font-family: 'Bree Serif', serif;
+  font-size: 22px;
+  margin: 0;
+  color: #f43f5e;
+}
+
+.topbar .brand p {
+  font-family: 'Gaegu', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  color: #555;
+  margin-top: -2px;
+}
+
+.topbar .controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  /* Position absolute so it doesn't interfere with the centering */
+  position: absolute;
+  right: 24px;
+}
+.hint{color:#6b7280;font-size:13px}
+.scale{color:#9ca3af;font-size:12px}
+
+#boardWrapper{
+  position:absolute;
+  top: 64px; /* Match new topbar height */
+  bottom:0;
+  left:0;
+  right:0;
+  background:linear-gradient(180deg,#fbfbfd,#f3f4f6);
+  overflow:hidden;
+  cursor: grab;
+}
+
+.board{
+  position:absolute;
+  width:20000px;
+  height:20000px;
+  transform-origin:0 0;
+  background-image: radial-gradient(circle, rgba(0,0,0,0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.sticky{
+  position:absolute;
+  width:200px;
+  min-height:120px;
+  padding:12px 16px;
+  border-radius: 4px;
+  box-shadow:var(--card-shadow);
+  transform: translate(-50%,-50%);
+  user-select:none;
+  border: 1px solid rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s, transform 0.2s;
+  font-family: 'Gaegu', sans-serif;
+}
+
+.sticky:hover {
+  box-shadow: 0 8px 24px rgba(17,24,39,0.12);
+  transform: translate(-50%,-50%) scale(1.02) rotate(var(--rotation, 0deg));
+  z-index: 100;
+}
+
+.sticky .text{
+  font-weight: 400;
+  font-size: 18px;
+  white-space:pre-wrap;
+  line-height: 1.4;
+}
+.sticky .meta{
+  margin-top:12px;
+  font-size:14px;
+  font-weight: 700;
+  color:#374151;
+}
