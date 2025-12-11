@@ -68,5 +68,12 @@
     "name": "Zara",
     "color": "#FFFFD1",
     "updatedAt": 1690004500000
+  },
+  {
+    "id": "n11",
+    "text": "Your beauty is in your character",
+    "name": "Diya",
+    "color": "#FFFL9D",
+    "updatedAt": 1690004500001
   }
 ]
